@@ -2,6 +2,11 @@ import logging
 import os
 import threading
 import time
+import random
+import string
+import subprocess
+import requests
+import json
 import aria2p
 import telegram.ext as tg
 from dotenv import load_dotenv
